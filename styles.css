@@ -3,178 +3,162 @@
     display: flex;
 }
 
-.logo {
-    position: absolute;
-    width: 156px;
-    height: 178px;
-    left: 1185px;
-    top: 127px;
-    background: url(images/Frame.png);
-}
+    .maincontainer .containerimg {
+        position: absolute;
+        width: 880px;
+        height: 900px;
+        top: -1px;
+        background: url(images/image15.jpg);
+    }
 
-.containerimg {
-    position: absolute;
-    width: 900px;
-    height: 900px;
-    top: -1px;
-    background: url(images/image15.jpg);
-}
-
-.loginlabel {
-    position: absolute;
-    width: 188px;
-    height: 56px;
-    left: 1189px;
-    top: 350px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 41px;
-    line-height: 48px;
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.09em;
-    color: #000000;
-}
-
-.welcomelabel {
-    position: absolute;
-    width: 272px;
-    height: 30px;
-    left: 1189px;
-    top: 419px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 27px;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-end;
-    color: #47C2C7;
-}
-
-.emaillabel {
-    position: absolute;
-    width: 53px;
-    height: 21px;
-    left: 1193px;
-    top: 527px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
-    letter-spacing: 0.12em;
-    color: #5F5F5F;
-}
-
-.emailinput {
-    position: absolute;
-    width: 400px;
-    height: 0px;
-    left: 1189px;
-    top: 559px;
-    border: 1px solid #00C0F3;
-}
+    .maincontainer .logo {
+        position: absolute;
+        width: 156px;
+        height: 178px;
+        left: 950px;
+        top: 127px;
+        background: url(images/Frame.png);
+    }
 
 
-.passwordlabel {
-    position: absolute;
-    width: 99px;
-    height: 21px;
-    left: 1193px;
-    top: 599px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
-    letter-spacing: 0.12em;
-    color: #5F5F5F;
-}
 
-.passwordinput {
-    position: absolute;
-    width: 400px;
-    height: 0px;
-    left: 1189px;
-    top: 633px;
-    border: 1px solid #00C0F3;
-}
+    .maincontainer .loginlabel {
+        position: absolute;
+        width: 188px;
+        height: 56px;
+        left: 950px;
+        top: 350px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 41px;
+        line-height: 48px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.09em;
+        color: #000000;
+    }
 
+    .maincontainer .welcomelabel {
+        position: absolute;
+        width: 272px;
+        height: 30px;
+        left: 950px;
+        top: 430px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 32px;
+        display: flex;
+        align-items: flex-end;
+        color: #47C2C7;
+    }
 
-.remembermelabel {
-    position: absolute;
-    width: 99px;
-    height: 13px;
-    left: 1214px;
-    top: 678px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 13px;
-    /* identical to box height */
+    .maincontainer .email {
+        position: absolute;
+        width: 400px;
+        height: auto;
+        left: 950px;
+        top: 559px;
+        border-bottom: 1px solid #00C0F3;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.12em;
+        color: #5F5F5F;
+    }
 
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.12em;
-    color: #5F5F5F;
-}
+    .maincontainer .password {
+        position: absolute;
+        width: 400px;
+        height: auto;
+        left: 950px;
+        top: 625px;
+        border-bottom: 1px solid #00C0F3;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.12em;
+        color: #5F5F5F;
+    }
 
-.checkbox {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 1187px;
-    top: 673px;
-}
+    .maincontainer .remembermelabel {
+        margin: 0px;
+        left: 985px;
+        position: absolute;
+        width: 99px;
+        height: 13px;
+        top: 690px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.12em;
+        color: #5F5F5F;
+    }
 
-.forgotpwdlabel {
-    position: absolute;
-    width: 113px;
-    height: 13px;
-    left: 1484px;
-    top: 678px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 13px;
-    /* identical to box height */
+    .maincontainer .checkbox {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 950px;
+        top: 685px;
+    }
 
-    display: flex;
-    align-items: flex-end;
-    text-align: right;
-    letter-spacing: 0.12em;
-    color: #5F5F5F;
-}
+    .maincontainer .forgotpwdlabel {
+        margin: 0px;
+        left: 1200px;
+        position: absolute;
+        width: 113px;
+        height: 13px;
+        top: 690px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        letter-spacing: 0.12em;
+        color: #5F5F5F;
+    }
 
-.loginbtnlabel {
-    position: absolute;
-    width: 53px;
-    height: 21px;
-    left: 1219px;
-    top: 782px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
+    .maincontainer .loginbtnlabel {
+        position: absolute;
+        width: 53px;
+        height: 21px;
+        left: 950px;
+        top: 782px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
 
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.loginbtn {
-    position: absolute;
-    width: 120px;
-    height: 39px;
-    left: 1187px;
-    top: 772px;
-    background: #00C0F3;
-    border: none;
-}
+    .maincontainer .loginbtn {
+        position: absolute;
+        width: 120px;
+        height: 39px;
+        left: 950px;
+        top: 772px;
+        background: #00C0F3;
+        border: none;
+    }
