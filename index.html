@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script type="text/javascript" src="Figmascript.js"></script>
     <title>
         Oceanus Figma
     </title>
@@ -15,16 +16,16 @@
             </div>
             <p class="loginlabel">LOGIN</p>
             <p class="welcomelabel">Welcome To Oceanus</p>
-            <div class="input">
+            <div>
                 <form>
-                    <input type="email" class="email" placeholder="Email">
-                    <input type="password" class="password" placeholder="Password">
+                    <input type="email" id="email" class="email" placeholder="Email">
+                    <input type="password" id="password" class="password" placeholder="Password">
                     <p class="remembermelabel">Remember Me</p>
                     <input type="checkbox" class="checkbox" />
                     <p class="forgotpwdlabel">Forgot Password</p>
-                    <button type="submit" class="loginbtn loginbtnlabel">LOGIN</button>
+                    <input type="button" class="loginbtn loginbtnlabel" value="LOGIN" onclick="getLoginDetails()" />
                 </form>
-
+                <span id='loginData'> </span>
             </div>
 
 

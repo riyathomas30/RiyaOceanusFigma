@@ -6,7 +6,7 @@
     .maincontainer .containerimg {
         position: absolute;
         width: 880px;
-        height: 900px;
+        height: 1000px;
         top: -1px;
         background: url(images/image15.jpg);
     }
@@ -161,4 +161,14 @@
         top: 772px;
         background: #00C0F3;
         border: none;
+        cursor: pointer;
     }
+
+.login span {
+    color: #000000;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 950px;
+    top: 900px;
+}
